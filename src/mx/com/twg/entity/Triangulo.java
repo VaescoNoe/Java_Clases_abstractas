@@ -8,6 +8,7 @@ public class Triangulo extends FiguraGeometrica{
 		super(tipo);
 	}
 	
+	// Sobre escritura del método abstracto
 	@Override
 	public void dibujar() {
 		// this.getClass().getSimpleName() == Obtiene el nombre de estra clase

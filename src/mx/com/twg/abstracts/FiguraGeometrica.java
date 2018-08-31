@@ -8,6 +8,7 @@ public abstract class FiguraGeometrica {
 		this.tipoFigura = tipoFigura;
 	}
 
+	//Método abstracto
 	public abstract void dibujar();
 	
 	public String getTipoFigura() {

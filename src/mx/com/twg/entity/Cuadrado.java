@@ -8,6 +8,7 @@ public class Cuadrado extends FiguraGeometrica{
 		super(tipo);
 	}
 
+	// Sobre escritura del método abstracto
 	@Override
 	public void dibujar() {
 		// this.getClass().getSimpleName() == Obtiene el nombre de esta clase
